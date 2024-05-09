@@ -31,4 +31,8 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Compile Maven  
       run: mvn compile exec:java -Dexec.mainClass="hello.HelloWorld"
+    - name: Display .class files
+      run: |
+        echo "Compiled .class files are located in target/classes directory:"
+        ls -R src/main
       
