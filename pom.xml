@@ -49,7 +49,7 @@
 									<mainClass>hello.HelloWorld</mainClass>
 								</transformer>
 							</transformers>
-							<outputDirectory>src/main/java/hello</outputDirectory>
+							<outputDirectory>target/classes</outputDirectory>
 						</configuration>						
 					</execution>
 				</executions>
