@@ -34,5 +34,5 @@ jobs:
     - name: Display .class files
       run: |
         echo "Compiled .class files are located in target/classes directory:"
-        ls -R src/main
+        ls -R src/main/java/hello
       
