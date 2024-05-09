@@ -49,10 +49,8 @@
 									<mainClass>hello.HelloWorld</mainClass>
 								</transformer>
 							</transformers>
-						</configuration>
-						<configuration>
-                					<outputDirectory>${project.build.directory}/classes</outputDirectory>
-          					</configuration>
+							<outputDirectory>${project.build.directory}/classes</outputDirectory>
+						</configuration>						
 					</execution>
 				</executions>
 			</plugin>
