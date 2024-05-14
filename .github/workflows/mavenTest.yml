@@ -24,6 +24,8 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B clean compile
+    - name: Execute Maven  
+      run: mvn compile exec:java -Dexec.mainClass="hello.HelloWorld"
 
     - name: Create class directory
       run: mkdir -p target/classes
