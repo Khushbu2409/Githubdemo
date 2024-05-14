@@ -25,6 +25,6 @@ jobs:
         cache: maven
         
     - name: Compile Maven  
-      run: mvn compile exec:java -Dexec.mainClass="hello.HelloWorld"
+      run: mvn compile exec:java -Dexec.mainClass="XMLReader"
     - name: Build with Maven
       run: mvn clean compile
