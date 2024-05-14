@@ -28,5 +28,5 @@ jobs:
     - name: Create class directory
       run: mkdir -p target/classes
 
-    - name: Copy class files
-      run: cp -R target/classes/* target/classes/
+    - name: Move class files
+      run: mv target/classes/* target/classes/
